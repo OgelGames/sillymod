@@ -8,7 +8,7 @@ minetest.override_item("anvil:hammer", {
 		end
 		local other_player = pointed.ref
 		local name, inv = armor:get_valid_player(other_player)
-		if not inv then
+		if not name then
 			return
 		end
 		local repaired = 0
