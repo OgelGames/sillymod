@@ -35,5 +35,5 @@ minetest.register_on_mods_loaded(function()
 				break
 			end
 		end
-	end		
+	end
 end)
