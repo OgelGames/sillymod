@@ -3,6 +3,7 @@ local MP = minetest.get_modpath("sillymod")
 
 dofile(MP.."/things/death.lua")
 dofile(MP.."/things/wind.lua")
+dofile(MP.."/things/names.lua")
 
 if minetest.get_modpath("default") then
 	dofile(MP.."/things/food.lua")
