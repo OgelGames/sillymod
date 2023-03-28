@@ -5,6 +5,7 @@ dofile(MP.."/things/death.lua")
 dofile(MP.."/things/wind.lua")
 dofile(MP.."/things/names.lua")
 dofile(MP.."/things/home.lua")
+dofile(MP.."/things/eating.lua")
 
 if minetest.get_modpath("default") then
 	dofile(MP.."/things/food.lua")
