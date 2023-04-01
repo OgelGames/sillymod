@@ -61,7 +61,7 @@ local timer = 0
 
 minetest.register_globalstep(function(dtime)
 	timer = timer + dtime
-	if timer < 3 then  -- Once every 5 mins
+	if timer < 300 then  -- Once every 5 mins
 		return
 	end
 	timer = 0
