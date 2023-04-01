@@ -45,26 +45,29 @@ local names = {
 		"It was really good at twigonometry.",
 }
 
-local timer = 0
-
-minetest.register_globalstep(function(dtime)
-	timer = timer + dtime
-	if timer < 600 then  -- Once every 10 mins
-		return
-	end
-	timer = 0
-	local players = minetest.get_connected_players()
-	if math.random(10) > #players then
-		return
-	end
+local function give_stick(player)
 	local stick = ItemStack("default:stick")
 	local name = names[math.random(#names)]
 	stick:get_meta():set_string("description", name)
-	local player = players[math.random(#players)]
 	local inv = player:get_inventory()
 	if not inv:room_for_item("main", stick) then
 		return
 	end
 	inv:add_item("main", stick)
 	minetest.chat_send_player(player:get_player_name(), "Here, have a stick!")
+end
+
+local timer = 0
+
+minetest.register_globalstep(function(dtime)
+	timer = timer + dtime
+	if timer < 3 then  -- Once every 5 mins
+		return
+	end
+	timer = 0
+	for _,player in pairs(minetest.get_connected_players()) do
+		if math.random(2) == 1 then  -- 50% chance
+			give_stick(player)
+		end
+	end
 end)
