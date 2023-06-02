@@ -27,7 +27,7 @@ Some silly things depend on certain mods for them to work. For the best experien
 
 ## Installation
 
-Download the [master branch](https://github.com/OgelGames/sillymod/archive/master.zip) or the [latest release](https://github.com/OgelGames/sillymod/releases), and follow [the usual installation steps](https://dev.minetest.net/Installing_Mods).
+Download the [master branch](https://github.com/OgelGames/sillymod/archive/master.zip) or the [latest release](https://github.com/OgelGames/sillymod/releases), and follow [the usual installation steps](https://wiki.minetest.net/Installing_Mods).
 
 ## License
 
