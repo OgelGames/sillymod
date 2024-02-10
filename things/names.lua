@@ -8,10 +8,13 @@ local names = {
 	["Dye"]          = "Die",
 	["Meat"]         = "Meet",
 	["Chili"]        = "Chilly",
+	["Base"]         = "Bass",
+	["Wood"]         = "Would",
 	-- "Correct" names
 	["Diamond"]      = "Aligned Carbon",
 	["Bread"]        = "Raw Toast",
 	["Ice"]          = "Frozen Water",
+	["Water"]        = "Melted Ice",
 	["Honey"]        = "Bee Vomit",
 	["Strawberry"]   = "Big Redberry",
 	["Strawberries"] = "Big Redberries",
@@ -23,6 +26,7 @@ local names = {
 	["Sand"]         = "Snad",
 	["Sandstone"]    = "Snadstone",
 	["Cow"]          = "Woc",
+	["Beacon"]       = "Bacon",
 }
 
 minetest.register_on_mods_loaded(function()
