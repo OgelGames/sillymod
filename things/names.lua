@@ -10,9 +10,11 @@ local names = {
 	["Chili"]        = "Chilly",
 	["Base"]         = "Bass",
 	["Wood"]         = "Would",
+	["Desert"]       = "Dessert",
 	-- "Correct" names
 	["Diamond"]      = "Aligned Carbon",
 	["Bread"]        = "Raw Toast",
+	["Toast"]        = "Cooked Bread",
 	["Ice"]          = "Frozen Water",
 	["Water"]        = "Melted Ice",
 	["Honey"]        = "Bee Vomit",
