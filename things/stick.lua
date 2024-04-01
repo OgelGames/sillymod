@@ -66,7 +66,7 @@ minetest.register_globalstep(function(dtime)
 	end
 	timer = 0
 	for _,player in pairs(minetest.get_connected_players()) do
-		if math.random(2) == 1 then  -- 50% chance
+		if math.random(5) == 1 then  -- 20% chance
 			give_stick(player)
 		end
 	end
