@@ -6,4 +6,5 @@ read_globals = {
 	
 	"controls",
 	"armor",
+	"mobs",
 }

@@ -15,3 +15,7 @@ end
 if minetest.get_modpath("anvil") and minetest.get_modpath("3d_armor") then
 	dofile(MP.."/things/repair.lua")
 end
+
+if minetest.get_modpath("mobs_animal") then
+	dofile(MP.."/things/chicken.lua")
+end
