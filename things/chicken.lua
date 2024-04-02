@@ -1,4 +1,6 @@
 
+-- Chickens with more personality
+
 local names = {
 	"Albert Eggstein", "Amelia Egghart", "Hen Solo", "Mary Poopins",
 	"Birdzilla", "Cluck Norris", "Chick Jagger", "Chick Astley",

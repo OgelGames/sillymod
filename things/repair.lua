@@ -1,5 +1,5 @@
 
--- Gives a benifit to smacking someone with a hammer
+-- Gives a benefit to smacking someone with a hammer
 
 minetest.override_item("anvil:hammer", {
 	on_use = function(stack, player, pointed)
