@@ -29,6 +29,8 @@ local names = {
 	["Sandstone"]    = "Snadstone",
 	["Cow"]          = "Woc",
 	["Beacon"]       = "Bacon",
+	["Teleport"]     = "Toilet Paper",
+	["Bread"]        = "Bred",
 }
 
 minetest.register_on_mods_loaded(function()
