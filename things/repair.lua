@@ -1,11 +1,14 @@
 
 -- Gives a benefit to smacking someone with a hammer
 
-local old_on_use = minetest.registered_items["anvil:hammer"].on_use
 minetest.override_item("anvil:hammer", {
 	on_use = function(stack, player, pointed)
 		if pointed.type ~= "object" or not minetest.is_player(pointed.ref) then
-			return old_on_use(stack, player, pointed)
+			if pointed.type == "node" then
+				local pos = pointed.under
+				return minetest.node_punch(pos, minetest.get_node(pos), player, pointed)
+			end
+			return
 		end
 		local other_player = pointed.ref
 		local name, inv = armor:get_valid_player(other_player)
