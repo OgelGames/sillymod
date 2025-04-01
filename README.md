@@ -9,7 +9,7 @@
 
 Silly things for Minetest. May also contain memes, puns and jokes.
 
-Currently there are 9 unique silly things in this mod, I would list them here, but I encourage you to play the game and discover them yourself; it's more fun that way :)
+Currently there are 10 unique silly things in this mod, I would list them here, but I encourage you to play the game and discover them yourself; it's more fun that way :)
 
 Some silly things depend on certain mods for them to work. For the best experience, make sure to install all the dependencies, including the optional ones.
 
@@ -25,6 +25,7 @@ Some silly things depend on certain mods for them to work. For the best experien
 - [`3d_armor`](https://github.com/minetest-mods/3d_armor)
 - [`anvil`](https://github.com/minetest-mods/anvil)
 - [`mobs_animal`](https://codeberg.org/tenplus1/mobs_animal)
+- [`technic`](https://github.com/mt-mods/technic)
 
 ## Installation
 
