@@ -24,6 +24,7 @@ local names = {
 	["Raspberry"]    = "Small Red Berry",
 	["Raspberries"]  = "Small Red Berries",
 	["Lava"]         = "Liquified Stone",
+	["Stone"]        = "Solidified Lava",
 	["Meat"]         = "Corpse Bits",
 	-- Other
 	["Cheese"]       = "Cheez",
