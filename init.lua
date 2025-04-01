@@ -10,6 +10,7 @@ dofile(MP.."/things/eating.lua")
 if minetest.get_modpath("default") then
 	dofile(MP.."/things/food.lua")
 	dofile(MP.."/things/stick.lua")
+	dofile(MP.."/things/swap.lua")
 end
 
 if minetest.get_modpath("anvil") and minetest.get_modpath("3d_armor") then
