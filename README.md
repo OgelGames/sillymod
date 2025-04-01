@@ -11,7 +11,7 @@ Silly things for Minetest. May also contain memes, puns and jokes.
 
 Currently there are 10 unique silly things in this mod, I would list them here, but I encourage you to play the game and discover them yourself; it's more fun that way :)
 
-Some silly things depend on certain mods for them to work. For the best experience, make sure to install all the dependencies, including the optional ones.
+Some silly things depend on certain mods for them to work. For the best experience (and the most silliness), make sure to install all the dependencies, including the optional ones.
 
 ## Dependencies
 
