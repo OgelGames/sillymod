@@ -12,9 +12,13 @@ For `sillymod_wind.*.ogg`:
 
 - CC BY-NC 3.0 by [zippi1](https://freesound.org/people/zippi1)
 
+For `sillymod_oof.1.ogg`:
+
+- CC BY 4.0 by [thecheeseman](https://freesound.org/people/thecheeseman)
+
 ## Notes
 
-`sillymod_music.ogg` was created with [LMMS](https://lmms.io/), based on the song "Never Gonna Give You Up" by Rick Astley.
+--
 
 ## MIT License
 
