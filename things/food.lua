@@ -20,6 +20,8 @@ local edible_stuff = {
 	-- Diamonds and sticks, just because I wanted to include them.
 	["default:diamond"]          = 20,
 	["default:stick"]            = 1,
+	-- Bart's shorts.
+	["3d_armor:leggings_cactus"] = 4,
 }
 
 for name, fp in pairs(edible_stuff) do
